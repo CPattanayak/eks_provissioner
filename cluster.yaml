@@ -13,7 +13,7 @@ managedNodeGroups:
     
     instanceType: t3.small
     desiredCapacity: 1
-    privateNetworking: true
+   # privateNetworking: true
     ssh: # use existing EC2 key
       allow: true
       publicKeyName: eks_cluster
