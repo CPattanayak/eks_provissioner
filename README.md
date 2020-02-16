@@ -12,3 +12,4 @@ environment variables need to set
 configuring to existing cluster
   aws eks --region region update-kubeconfig --name cluster_name
  
+gitlab image cpattanayak/eks:latest
