@@ -4,7 +4,7 @@ kind: ClusterConfig
 metadata:
   name: EKS-course-cluster4
   region: ap-south-1
-  version: "1.13"
+  
 vpc:
   clusterEndpoints:
     privateAccess: true
