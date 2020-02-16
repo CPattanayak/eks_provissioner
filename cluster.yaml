@@ -2,9 +2,12 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: EKS-course-cluster4
+  name: EKS-course-cluster5
   region: ap-south-1
-
+vpc:
+  clusterEndpoints:
+    publicAccess: true
+    privateAccess: true
 nodeGroups:
   - name: ng-1
     instanceType: t3.small
