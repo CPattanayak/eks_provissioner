@@ -8,7 +8,7 @@ vpc:
   clusterEndpoints:
     publicAccess: true
     privateAccess: true
-nodeGroups:
+managedNodeGroups:
   - name: ng-1
     
     instanceType: t3.small
