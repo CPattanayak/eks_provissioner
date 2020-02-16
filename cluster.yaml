@@ -4,10 +4,7 @@ kind: ClusterConfig
 metadata:
   name: EKS-course-cluster4
   region: ap-south-1
-  
-vpc:
-  clusterEndpoints:
-    privateAccess: true
+
 nodeGroups:
   - name: ng-1
     instanceType: t3.small
