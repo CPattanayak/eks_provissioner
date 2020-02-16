@@ -10,7 +10,7 @@ vpc:
     privateAccess: true
 nodeGroups:
   - name: ng-1
-    labels: { role: workers }
+    
     instanceType: t3.small
     desiredCapacity: 1
     privateNetworking: true
