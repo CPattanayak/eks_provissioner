@@ -2,7 +2,7 @@ apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
 
 metadata:
-  name: EKS-course-cluster
+  name: EKS-course-cluster1
   region: ap-south-1
 
 nodeGroups:
